@@ -1,8 +1,9 @@
-package com.example.demo;
+package com.example.demo.OpenAi;
 
 import com.example.demo.Dto.ContentItem;
 import com.example.demo.Dto.OpenAiResponse;
 import com.example.demo.Dto.OutputItem;
+import com.example.demo.Modules.ChatResponse;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

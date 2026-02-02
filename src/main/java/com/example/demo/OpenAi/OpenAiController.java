@@ -1,5 +1,7 @@
-package com.example.demo;
+package com.example.demo.OpenAi;
 
+import com.example.demo.Modules.ChatRequest;
+import com.example.demo.Modules.ChatResponse;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
