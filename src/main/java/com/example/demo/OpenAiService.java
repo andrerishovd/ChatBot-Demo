@@ -61,7 +61,6 @@ public class OpenAiService {
         input.add(Map.of("role", "user", "content", userMessage));
         body.put("input", input);
 
-        // Optional: enforce text output formatting
         body.put("text", Map.of("format", Map.of("type", "text")));
 
         return body;
